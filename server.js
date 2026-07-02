@@ -55,7 +55,7 @@ app.post('/api/contact', contactLimit, async (req, res) => {
     // Email interno a Santino
     await resend.emails.send({
       from: 'Pina Web <no-reply@somospina.com.ar>',
-      to: 'santino@somospina.com.ar',
+      to: 'santinoantonini@gmail.com',
       subject: `Nuevo contacto desde somospina.com.ar — ${nombre}`,
       text: `
 Nuevo mensaje desde el formulario de contacto.
